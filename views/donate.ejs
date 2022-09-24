@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head.ejs')  %>
+        <link rel="stylesheet" href="stylea.css">
+    </head>
+    <body>
+        <section class="header">
+            <%- include('./partials/nav.ejs')  %>
+        
+        </section> 
+        <div class="donate-bg">
+            <div class="donate-bg-left"></div>
+            <div class="donate-bg-right">
+                <img src="images/BG edited.jpg" alt="" class="donate-bg-img">
+            </div>
+        </div>
+        <div class="donate-form-container">
+            <div class="donate-form-upper">
+                <p class="donate-title">Donate</p>
+                <p class="donate-help">Help a stray today.</p>
+                <p class="donate-caption">Always remember that every little donation or amount goes a long way for these strays and we are always called upon
+                    to rescue animals who are suffering from neglect, abuse, or hunger. Our organization relies heavily on the donations we receive and 
+                    none of these would be possible without your help.
+                </p>
+            </div>
+            <div class="donate-form-lower">
+                <div class="donate-details-container">
+                    <div>
+                        <p class="donate-details">Your details</p>
+                    </div>
+                    <!-- <div class="donate-hr-container"> -->
+                        <div class="donate-hr"></div>  
+                    <!-- </div> -->
+                </div>
+                <form action="payment.html" class="donate-form">
+                    <input type="text" name="firstName" placeholder="First  Name" class="donate-names donate-firstName" oninput="capitalizeName(this)" required maxlength="256" pattern="[a-zA-Z]+">
+                    <input type="text" name="lastName" placeholder="Last Name" class="donate-names donate-lastName" oninput="capitalizeName(this)" required maxlength="256" pattern="[a-zA-Z]+">
+                    <br>
+                    <input type="email" name="emailAdd" placeholder="Email Address" class="donates-email" required maxlength="254" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+                    <div class="donate-bttn-container">
+                        <div class="donate-hr"></div>
+                        <button class="donate-bttn">CONTINUE TO PAYMENT</button>
+                        <div class="donate-hr"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

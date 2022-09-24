@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.header {
+  min-height: 100%;
+  /* added */
+  margin-bottom: 5vw;
+}
+
+.nav-item {
+  font-size: calc(8px + 1vw);
+  font-family: Playfair Display;
+  padding: 10px 60px;
+  font-weight: lighter;
+}
+
+.nav-logo{
+  width: 31.3vw;
+  min-width: 260px;
+}
+
+.ww-nav ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #9c7e7e;
+  display: block;
+  margin: auto;
+  transition: 0.5s;;
+}
+  
+.ww-nav ul li:hover::after{
+      width:100%;
+  
+}
+
+h3{
+  font-family: 'Raleway';
+  font-size: 3rem;
+  font-style: normal;
+  font-variant: normal;
+  font-family: normal;
+}
+
+h4{
+  font-family: 'Inter';
+  font-size: 1.4rem;
+  font-style: normal;
+  font-variant: normal;
+  font-family: normal;
+}
+
+/* DONATE */
+
+/* Background */
+.donate-bg{
+width: 100%;
+height: fit-content;
+display: grid;
+grid-template-columns: 1.059fr 1fr;
+z-index: -1;
+position: absolute;
+}
+.donate-bg-left{
+background-color: #e4ae00;
+}
+.donate-bg-right{
+
+}
+.donate-bg-img{
+width: 100%;
+border: none;
+display: block;
+}
+
+/* Form Container */
+.donate-form-container{
+background-color: white;
+width: 45vw;
+height: 43.5vw;
+margin-left: 9vw;
+margin-top: 13.7vw;
+font-size: 1vw;
+box-shadow: 3px 6px 6px#ae8400;
+}
+
+.donate-form-upper{
+margin-left: 1vw;
+margin-bottom: 0.3vw;
+/* padding-top: .vw; */
+padding-right: 0.75vw;
+}
+/* "Donate" */
+.donate-title{
+font-family: 'Playfair Display', serif;
+font-size: 3.35vw;
+color: black;
+/* spacing below "Donate" */
+margin-bottom: 0.35vw;
+}
+/* "Help a stray today." */
+.donate-help{
+font-family: 'Inter', sans-serif;
+font-size: 2.35vw;
+color: #615e5e;
+/* spacing below "Help a stray today."*/
+margin-bottom: 0.2vw;
+}
+/* "Always remember that..." */
+.donate-caption{
+font-family: 'Inter', sans-serif;
+font-size: 1.425vw;
+color: #615e5e;
+line-height: 1.75vw;
+}
+
+.donate-form-lower{
+}
+.donate-details-container{
+display: grid;
+grid-template-columns: 1.18fr 3fr;
+align-items: center;
+padding-right: 2.25vw;
+margin-left: .7vw;
+margin-bottom: 1.25vw;
+}
+.donate-details{
+font-family: 'Playfair Display', serif;
+font-size: 1.85vw;
+color: black;
+margin-left: 1vw;
+margin-bottom: 0;
+}
+.donate-hr{
+  background-color: #5b5b5b;
+  height: 0.25vw;
+}
+.donate-form{
+  width: 100%;
+  padding-top: 0.325vw;
+}
+.donate-form > input{
+padding-block: .625vw;
+padding-left: .775vw;
+font-family: 'Playfair Display', serif;
+margin-left: 1.7vw;
+font-size: 1vw;
+
+}
+.donate-names{
+padding-right: 5.1vw;
+margin-bottom: 1.5vw;
+max-width: 40%;
+}
+.donate-firstName{
+margin-right: .9vw;
+}
+.donates-email {
+width: 84%;
+}
+.donate-bttn-container{
+margin-top: 4.5vw;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+align-items: center;
+margin-inline: 0.75vw;
+}
+.donate-bttn{
+background-color: black;
+color: #e4ae00;
+padding-block: .8vw;
+font-family: 'Inter', sans-serif;
+font-weight: bolder;
+font-size: 1.3vw;
+margin-inline: 0.75vw;
+transition: background-color 0.3s, color 0.3s;
+border: none;
+}
+
+.donate-bttn:hover{
+color: black;
+background-color: #e4ae00;
+}

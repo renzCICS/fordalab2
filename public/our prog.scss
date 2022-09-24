@@ -1,0 +1,301 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.header {
+  min-height: 100%;
+  /* added */
+  margin-bottom: 5vw;
+}
+
+.nav-item {
+  font-size: calc(8px + 1vw);
+  font-family: Playfair Display;
+  padding: 10px 60px;
+  font-weight: lighter;
+}
+
+.nav-logo{
+  width: 31.3vw;
+  min-width: 260px;
+}
+  
+  .ww-nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #9c7e7e;
+    display: block;
+    margin: auto;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .ww-nav ul li:hover::after {
+    width: 100%;
+  }
+  
+  .our-prog h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .h {
+    width: 15%;
+    height: 1px;
+    border: 0 none;
+    margin-top: 4.5px;
+    margin-left: 42.6%;
+    background-color: #000000;
+  }
+  
+  .rescue-ad {
+    margin-top: 5%;
+  }
+  
+  .rescue-ad h1 {
+    font-size: 40px;
+    font-family: Raleway;
+  }
+  
+  .rescue-ad p {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: justify;
+    padding-right: 50%;
+    margin-top: 3%;
+  }
+  
+  .rescue-ad img {
+    margin-top: -20%;
+    float: right;
+  }
+
+  .feed-info {
+    margin-top: -25%;
+    margin-left: 45%;
+  }
+  
+  .feed-info h1 {
+    font-size: 40px;
+    font-family: Raleway;
+  }
+  
+  .feed-info p {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: justify;
+    margin-top: 5%;
+  }
+
+  .anti-rab {
+    margin-top: 15%;
+  }
+  
+  .anti-rab h1 {
+    font-size: 40px;
+    font-family: Raleway;
+  }
+  
+  .anti-rab p {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: justify;
+    padding-right: 50%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+
+  .anti-rab img {
+    margin-top: -29%;
+    float: right;
+  }
+
+  .tick-fleas {
+    margin-top: -25%;
+    margin-left: 45%;
+  }
+  
+  .tick-fleas h1 {
+    font-size: 40px;
+    font-family: Raleway;
+  }
+  
+  .tick-fleas p {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: justify;
+    margin-top: 5%;
+  }
+
+  .spay-neuter {
+    margin-top: 12%;
+  }
+  
+  .spay-neuter h1 {
+    font-size: 40px;
+    font-family: Raleway;
+  }
+  
+  .spay-neuter p {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: justify;
+    padding-right: 50%;
+    margin-top: 3%;
+  }
+
+  .spay-neuter img {
+    margin-top: -32%;
+    float: right;
+  }
+
+  @media (max-width: 700px){
+
+    .our-prog h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: lighter;
+      font-size: 40px;
+      text-align: center;
+    }
+    
+    .h {
+      width: 15%;
+      height: 1px;
+      border: 0 none;
+      margin-top: 4.5px;
+      margin-left: 42.6%;
+      background-color: #0c0a0a;
+    }
+    
+    .rescue-ad {
+      margin-top: 10%;
+      margin-right: -45%;
+    }
+    
+    .rescue-ad h1 {
+      font-size: 40px;
+      font-family: Raleway;
+    }
+    
+    .rescue-ad p {
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 700;
+      text-align: justify;
+      padding-right: 30%;
+      margin-top: 3%;
+    }
+  
+    .rescue-ad img {
+      width: 50%;
+      margin-top: -5%;
+      margin-left: 12%;
+      float: none;
+    }
+
+    .feed-info {
+      margin-top: 5%;
+      margin-left: 1%;
+    }
+    
+    .feed-info h1 {
+      font-size: 40px;
+      font-family: Raleway;
+    }
+    
+    .feed-info p {
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 700;
+      text-align: justify;
+      margin-top: 5%;
+    }
+
+  
+    .anti-rab {
+      margin-top: 10%;
+      margin-right: -45%;
+    }
+    
+    .anti-rab h1 {
+      font-size: 40px;
+      font-family: Raleway;
+    }
+    
+    .anti-rab p {
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 700;
+      text-align: justify;
+      padding-right: 30%;
+      margin-top: 3%;
+    }
+  
+    .anti-rab img {
+      width: 50%;
+      margin-top: -5%;
+      margin-left: 16%;
+      float: none;
+    }
+  
+    .tick-fleas {
+      margin-top: 5%;
+      margin-left: 1%;
+    }
+    
+    .tick-fleas h1 {
+      font-size: 40px;
+      font-family: Raleway;
+    }
+    
+    .tick-fleas p {
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 700;
+      text-align: justify;
+      margin-top: 5%;
+    }
+  
+    .spay-neuter {
+      margin-top: 6%;
+      margin-right: -45%;
+    }
+    
+    .spay-neuter h1 {
+      font-size: 40px;
+      font-family: Raleway;
+    }
+    
+    .spay-neuter p {
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 700;
+      text-align: justify;
+      padding-right: 30%;
+      margin-top: 3%;
+    }
+  
+    .spay-neuter img {
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 10%;
+      float: none;
+    }
+  }
+
+  
+
+
+
+  
+  
+  /*# sourceMappingURL=index.css.map */

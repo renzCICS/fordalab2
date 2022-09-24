@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 100%;
+  /* added */
+  margin-bottom: 5vw;
+}
+
+.nav-item {
+  font-size: calc(8px + 1vw);
+  font-family: Playfair Display;
+  padding: 10px 60px;
+  font-weight: lighter;
+}
+
+.nav-logo {
+  width: 31.3vw;
+  min-width: 260px;
+}
+
+.ww-nav ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #9c7e7e;
+  display: block;
+  margin: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ww-nav ul li:hover::after {
+  width: 100%;
+}
+
+.section-title-abt {
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-weight: lighter;
+}
+
+.abt-title {
+  font-family: 'Raleway';
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+.h-abt {
+  width: 15%;
+  height: 1px;
+  border: 0 none;
+  margin-top: 10.5px;
+  margin-left: 42.6%;
+  background-color: #c1c1c1;
+}
+
+.ourmission {
+  width: 100%;
+  min-height: 63vh;
+}
+
+.ourmission .ourmission-img {
+  float: left;
+  width: 45%;
+}
+
+.ourmission .ourmission-img img {
+  width: 110%;
+  height: auto;
+}
+
+.ourmission .ourmission-info {
+  width: 85.5%;
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.ourmission .content-section-om {
+  float: right;
+  width: 45%;
+}
+
+.ourmission .content-section-om .ourmissionbio p {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 730px) {
+  .ourmission .ourmission-info {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+  }
+  .ourmission .content-section-om {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .ourmission .ourmission-img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
+
+.getintouch {
+  width: 100%;
+  min-height: 73vh;
+}
+
+.getintouch .getintouch-info {
+  width: 77.5%;
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.getintouch .getintouch-img {
+  float: right;
+  width: 45%;
+}
+
+.getintouch .getintouch-img img {
+  width: 100%;
+  height: auto;
+}
+
+.getintouch .content-section-git {
+  float: left;
+  width: 45%;
+}
+
+.getintouch .content-section-git .git-title {
+  font-family: 'Raleway';
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+.getintouch .content-section-git .getintouch-bio p {
+  font-family: 'Inter';
+  font-size: 34px;
+}
+
+@media screen and (max-width: 730px) {
+  .getintouch .getintouch-info {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+  }
+  .getintouch .content-section-git {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .getintouch .content-section-git .getintouch-bio p {
+    font-size: 28px;
+  }
+  .getintouch .getintouch-img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
+
+.our-team {
+  width: 100%;
+  padding-top: 80px;
+  display: block;
+  margin: auto;
+}
+
+.our-team .centerheading {
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+.our-team .ourteam__body {
+  text-align: center;
+}
+
+.our-team .ourteam__body p {
+  font-family: 'Inter';
+  font-size: 24px;
+}
+
+.our-team .main3 {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+}
+
+.our-team .main3 .images {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.our-team .name-ot {
+  font-family: 'Inter';
+}
+
+.our-team .role-ot {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  display: block;
+}
+
+.payment {
+  background-color: rgba(250, 216, 183, 0.973);
+}
+
+.payment .container-text-pm {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment .left-image-pm {
+  width: 45%;
+}
+
+.payment .left-image-pm img {
+  width: 110%;
+  height: auto;
+}
+
+.payment .right-info-pm {
+  min-height: 600px;
+  background-color: white;
+  padding: 30px;
+  -webkit-box-shadow: 3px 2px 4px gray;
+          box-shadow: 3px 2px 4px gray;
+  margin: auto;
+}
+
+.payment .right-info-pm:before {
+  content: "";
+  width: 75px;
+  height: 4px;
+  display: inline-block;
+  background: black;
+  position: relative;
+  bottom: 9%;
+  -webkit-transform: translate(-25px, 442px);
+          transform: translate(-25px, 442px);
+}
+
+.payment .right-info-pm:after {
+  content: "";
+  width: 75px;
+  height: 4px;
+  display: inline-block;
+  background: black;
+  position: relative;
+  bottom: 9%;
+  -webkit-transform: translate(290px, -70px);
+          transform: translate(290px, -70px);
+}
+
+.payment .btn {
+  color: #e4ae00;
+}
+
+.payment .img-qr-pm {
+  text-align: center;
+}
+
+.payment .hr-lines {
+  font-family: 'Playfair';
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+.payment .hr-lines:after {
+  display: inline-block;
+  content: "";
+  border-top: 4px solid black;
+  width: 128px;
+  margin: 0 1rem;
+  -webkit-transform: translateY(-14px);
+          transform: translateY(-14px);
+}
+
+.payment .txt-inp input {
+  border: 0;
+  background: none;
+  outline: 0;
+  width: 250px;
+  color: black;
+}
+
+@media screen and (max-width: 950px) {
+  .payment .container-text-pm {
+    width: 70%;
+    margin: auto;
+    padding-top: 80px;
+    background-color: rgba(250, 216, 183, 0.973);
+  }
+  .payment .right-info-pm {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+  }
+  .payment .left-image-pm img {
+    display: none;
+  }
+  .payment .img-qr-pm img {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .payment .hr-lines:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .payment .right-info-pm:before {
+    display: none;
+  }
+  .payment .right-info-pm:after {
+    display: none;
+  }
+}
+/*# sourceMappingURL=stylea.css.map */

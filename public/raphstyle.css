@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+  }
+  
+  .header {
+    min-height: 100%;
+    /* added */
+    margin-bottom: 5vw;
+  }
+  
+  .nav-item {
+    font-size: calc(8px + 1vw);
+    font-family: Playfair Display;
+    padding: 10px 60px;
+    font-weight: lighter;
+  }
+  
+  .nav-logo{
+    width: 31.3vw;
+    min-width: 260px;
+  }
+
+
+.ww-nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #9c7e7e;
+    display: block;
+    margin: auto;
+    transition: 0.5s;;
+ }
+    
+.ww-nav ul li:hover::after{
+        width:100%;
+    
+}
+
+.reports {
+    min-width: 98%;
+    margin-left: 20px;
+    
+}
+
+.section-title {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: lighter; 
+}
+
+.h {
+    width: 15%;
+    height: 1px;
+    border: 0 none;
+    margin-top: 10.5px;
+    margin-left: 42.6%;
+    background-color: #000000;
+}
+
+
+.ty {
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Playfair';
+    font-style: italic;
+}
+
+.goal {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #878585;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.dogie img{
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Fund-Updates {
+    width: 100%;
+}
+
+.Updates {
+    margin: auto;
+    width: 95%;
+    display: block;
+}
+
+.updatesimage img{
+    width: 100%;
+}
+
+.fundupdates1 {
+    font-family: 'Raleway';
+    float: left;
+    padding-left: 50px;
+}
+
+.fund {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 180px;
+    letter-spacing: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.fundupdates2 {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .fund {
+        font-size: 90px;
+    }
+}
